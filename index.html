@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="card">
+        <div id="input-container">
+            <i class="bi bi-card-checklist"></i>
+            <input type="text" placeholder="Type your todo list" id="input-el">
+            <button id="input-btn">
+                <i class="bi bi-plus-circle"></i>
+            </button>
+        </div>
+
+        <div>
+
+            <p class="upperButtons">
+                <button id="complete-all" class="btn"><i class="bi bi-check2-all"></i>complete all tasks </button>
+
+                <button id="clear-All" class="btn">clear all </button>
+            </p>
+        </div>
+        <ul id="ul-el">
+        </ul>
+        <hr>
+        <div class="footer">
+            <div id="tasksLeft">
+                <span id="count"></span> tasks left
+            </div>
+            <div id="bottom-buttons">
+                <button id="all" class="btn">all</button>
+                <button id="completed" class="btn">completed</button>
+                <button id="incomplete" class="btn">incomplete</button>
+            </div>
+        </div>
+        <!-- <input type="checkbox" > -->
+    </div>
+
+
+    <script src="index.js" async defer></script>
+</body>
+
+</html>
